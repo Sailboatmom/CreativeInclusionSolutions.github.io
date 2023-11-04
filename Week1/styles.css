@@ -46,6 +46,15 @@ ul.menu {
     background-color: rgb(18, 105, 199);
 }
 
+ul.menu2 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 40px;
+    overflow: hidden;
+    background-color: rgb(18, 105, 199);
+}
+
+
 li {
     color: rgb(237, 241, 249);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -97,6 +106,47 @@ img {
 }
 
 .imagecontainer {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+img.headimage2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    float: none;
+    z-index: 0;
+}
+
+
+img.endimage2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    float: right;
+    z-index: 0;
+}
+
+
+img.sideimage2 {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    width: 25%;
+    height: 100%;
+    float: center;
+    z-index: 1;
+}
+
+.imagecontainer2 {
     position: relative;
     top: 0;
     left: 0;
