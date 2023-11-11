@@ -10,6 +10,16 @@ body {
     margin-bottom: 10px;
 }
 
+.insta-box {
+    margin-top: 2px;
+    color: #fff;
+    background-color: #333;
+    width: 43px;
+    height: 43px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
 h1 {
     color: rgb(18, 105, 199);
     text-align: center;
@@ -20,8 +30,10 @@ h1 {
 }
 
 h1.index {
-    margin: 5%;
-    margin-bottom: 0;
+    margin: 110px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    padding-top: 50px;
 
 }
 
@@ -123,22 +135,16 @@ img.endimage {
 .logo2 {
     height: 250px;
     margin-left: 10%;
-    padding-top: 20px;
-}
-
-.logo3 {
-    height: 350px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 20px;
 }
 
 .menu2 {
-    background-color: rgb(18, 105, 199);
+    background-color: rgb(213, 214, 219);
     height: 60px;
     padding-top: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: x-large;
+    text-align: center;
 }
 
 a.nav2-link {
@@ -146,18 +152,14 @@ a.nav2-link {
     margin: 40px;
     padding: 0px;
     overflow: hidden;
-    background-color: rgb(18, 105, 199);
-    color: white;
+    background-color: rgb(213, 214, 219);
+    color: rgb(18, 105, 199);
     text-decoration: none;
 }
 
-.logo4 {
-    height: 350px;
-    margin-left: 45%;
-    padding-top: 10px;
+.logo3 {
+    max-height: 347px;
 }
-
-
 
 img {
     margin: 0;
@@ -179,7 +181,7 @@ img.headimage2 {
     top: 0;
     left: 0;
     width: 40%;
-    height: 99%;
+    height: 60%;
     float: none;
     z-index: 0;
 }
@@ -223,13 +225,79 @@ img.sideimage2 {
     margin-bottom: 20px;
 }
 
-.insta-box {
-    margin-top: 5px;
-    margin-left: 50%;
-    color: #fff;
-    background-color: #333;
-    width: 43px;
-    height: 43px;
-    border-radius: 3px;
+.footer-container {
+    grid-column: 1/4;
+    grid-row: 3;
+    padding: 10px;
+    border-top: 60px solid #333;
+    margin-bottom: 10px;
+}
+
+/* WHY */
+.footer-flex {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icons-flex {
+    display: flex;
+}
+
+.square {
     margin-right: 10px;
+    padding-left: 15px;
+}
+
+a .square {
+    color: #f5f5f7;
+}
+
+a .square:hover {
+    color: #6291D0;
+}
+
+a .insta-box:hover {
+    background-color: #6291D0;
+}
+
+.insta {
+    color: #fff;
+    margin: 5px 0 0 7.5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column wrap;
+}
+
+.imagebox {
+    max-width: 33%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 100%;
+    padding: 0 4px;
+    max-width: 100%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+img.galleryimage {
+    width: 320px;
+    height: 240px;
+
 }
