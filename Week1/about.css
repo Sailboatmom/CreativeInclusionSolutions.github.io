@@ -10,7 +10,6 @@ body {
     margin-bottom: 10px;
 }
 
-
 .imagecontainer2 {
     position: relative;
     top: 0;
@@ -29,3 +28,5 @@ img.headimage2 {
     float: none;
     z-index: 0;
 }
+
+.article {}
